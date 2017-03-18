@@ -1,3 +1,12 @@
+---
+layout: post
+title: CeontOS7 更改yum源 
+categories: Linux
+description: CeontOS7 更改yum源的详细方法, 以及注意事项. 亲测ok. 
+keywords: yum, CeontOS
+---
+
+
 # centos7 更改yum源
 
 进入yum源的目录
