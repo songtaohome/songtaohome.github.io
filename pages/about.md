@@ -20,6 +20,7 @@ permalink: /about/
 ## 联系
 
 * GitHub：[@qiuyuhome](https://github.com/qiuyuhome)
+* email：530004000@qq.com
 * 博客：[{{ site.title }}]({{ site.url }})
 
 ## Skill Keywords
