@@ -4,10 +4,10 @@
 baseurl:
 # url: http://mazhuang.org
 date_format: "ordinal"
-title: 邱宇博客
+title: QiuYu Blog
 subtitle: "The record bit by bit, are the mark of my growth"
 description: "邱宇的个人博客"
-keywords: 邱宇, QiuYu, qiuyu, PHP, 技术博客, linux
+keywords: 邱宇, QiuYu, qiuyu, PHP, 技术博客, linux, 邱宇博客
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
@@ -96,7 +96,7 @@ github_username: qiuyuhome
 comments_provider: duoshuo
 # !!!重要!!! 请修改下面两个用户名为你自己申请的
 # !!!Important!!! Please modify usernames below to yours
-duoshuo_username: mazhuang
+duoshuo_username: qiuyuhome
 disqus_username: mzlogin
 # 在使用一个时可点击显示另一个
 lazy_load_another : true
