@@ -1,12 +1,16 @@
 ---
 layout: post
 title: 虚拟机下练习CentOS源码安装LNMP
-categories: [cate1, cate2]
-description: some word here
-keywords: keyword1, keyword2
+categories: Linux
+description: 虚拟机下练习CentOS源码安装LNMP
+keywords: Linux, LNMP
 ---
 
+之前看过一个评论, 说: 程序员, 谁不是安装几十上百次开发环境. 
+so, 我又开始安装了. 
+
 ##环境准备
+
 1. 操作系统安装：CentOS 6.3 32位最小化安装。(mini安装.)
 2. 配置好IP、DNS、网关、主机名.(可以连接外网, 可以使用yum, wget等等.)
 3. 配置防火墙，开启80、3306端口.(也可以直接关闭防火墙.)
