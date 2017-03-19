@@ -5,7 +5,7 @@ baseurl:
 # url: http://mazhuang.org
 date_format: "ordinal"
 title: 邱宇博客
-subtitle: "记录的点点滴滴, 都是我成长的印记"
+subtitle: "The record bit by bit, are the mark of my growth"
 description: "邱宇的个人博客"
 keywords: 邱宇, QiuYu, qiuyu, PHP, 技术博客, linux
 favicon: /favicon.ico
@@ -28,23 +28,23 @@ email: 530004000@qq.com
 navs:
   -
     href: /
-    label: 首页
+    label: Home
 
   -
     href: /categories/
-    label: 分类
+    label: categories
 
   -
     href: /wiki/
-    label: 维基
+    label: wiki
 
   -
     href: /links/
-    label: 链接
+    label: links
 
   -
     href: /about/
-    label: 关于
+    label: about
 
 # ---------------- #
 #       RSS        #
@@ -77,17 +77,17 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: qiuyuhome/qiuyuhome.github.io
 
 # ---------------- #
 #      Socials     #
 # ---------------- #
 github_username: qiuyuhome
-douban_username: freedim
-facebook_username: mzlogin
-weibo_username: mzlogin
-zhihu_username: mzlogin
-twitter_username: mzlogin
+# douban_username: freedim
+# facebook_username: mzlogin
+# weibo_username: mzlogin
+# zhihu_username: mzlogin
+# twitter_username: mzlogin
 
 # ---------------- #
 #      Comments    #
