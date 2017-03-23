@@ -2,13 +2,13 @@
 layout: page
 title: About
 description: The record bit by bit, are the mark of my growth
-keywords: QiuYu 邱宇
+keywords: MinSongTao 闵松涛 minsongtao
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是邱宇, 唯一的爱好就是玩代码.
+我是闵松涛, 爱好很多, 喜欢代码  打游戏  玩吉他  旅行.
 
 羡慕大牛们的侃侃而谈, 一直在向着成为大牛而努力. 
 
@@ -16,11 +16,12 @@ permalink: /about/
 
 * The record bit by bit, are the mark of my growth
 * 多一份记录, 多一个脚步
+* 有爱, 勇敢, 认真走好眼前这一步
 
 ## 联系
 
-* GitHub：[@qiuyuhome](https://github.com/qiuyuhome)
-* email：530004000@qq.com
+* GitHub：[@songtaohome](https://github.com/songtaohome)
+* email：936908163@qq.com
 * 博客：[{{ site.title }}]({{ site.url }})
 
 ## Skill Keywords
