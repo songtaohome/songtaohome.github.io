@@ -1,3 +1,4 @@
+---
 yout: post
 title: 虚拟机下搭建CentOS, php-selenium,phantomjs 
 categories: Linux
