@@ -15,7 +15,7 @@
 
 ## 效果预览
 
-**[在线预览 &rarr;](http://www.qiuyuhome.com)**
+**[在线预览 &rarr;](http://www.minsongtao.com)**
 
 
 ## Fork 指南
