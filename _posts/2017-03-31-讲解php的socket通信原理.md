@@ -16,7 +16,7 @@ keywords: PHP, socket的通信
 
 **4.         你会使用它们吗？**
 
-#什么是TCP/IP、UDP？
+# 什么是TCP/IP、UDP？
   TCP/IP（Transmission Control Protocol/Internet Protocol）即传输控制协议/网间协议，是一个工业标准的协议集，它是为广域网（WANs）设计的。
   
   UDP（User Data Protocol，用户数据报协议）是与TCP相对应的协议。它是属于TCP/IP协议族中的一种。
@@ -26,20 +26,20 @@ keywords: PHP, socket的通信
  
 ![](http://onbsquc8n.bkt.clouddn.com/05172846-06817d0a3a4e412f97fa0fdf08ca6808.jpg)
 
-#Socket在哪里呢？
+# Socket在哪里呢？
 　　在图1中，我们没有看到Socket的影子，那么它到底在哪里呢？还是用图来说话，一目了然。
   
   ![](http://onbsquc8n.bkt.clouddn.com/05172918-d2b39f21a08a4550b4e3c5bce482a220.jpg)
   
-#Socket是什么呢？
+# Socket是什么呢？
 
 ![](http://onbsquc8n.bkt.clouddn.com/05172951-a955fce4e5d04082828e717fe0e102f9.jpg)
 
 先从服务器端说起。服务器端先初始化Socket，然后与端口绑定(bind)，对端口进行监听(listen)，调用accept阻塞，等待客户端连接。在这时如果有个客户端初始化一个Socket，然后连接服务器(connect)，如果连接成功，这时客户端与服务器端的连接就建立了。客户端发送数据请求，服务器端接收请求并处理请求，然后把回应数据发送给客户端，客户端读取数据，最后关闭连接，一次交互结束。
 
-#PHP的socket封装介绍说明
+# PHP的socket封装介绍说明
 
-##socket相关函数
+## socket相关函数
 
 ***
 
@@ -113,7 +113,7 @@ keywords: PHP, socket的通信
 
 `socket_writev()` 写数据到分散/聚合数组
 
-##案例一：socket通信演示
+## 案例一：socket通信演示
 
 服务器端:
 
@@ -267,7 +267,7 @@ echo "关闭OK\n";
 
 至此客户端已经连接上服务端了
 
-##案例二：代码详解
+## 案例二：代码详解
 
 ```
 
