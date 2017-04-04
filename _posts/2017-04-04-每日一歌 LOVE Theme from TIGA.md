@@ -10,7 +10,7 @@ keywords: 迪迦,回忆,童年,感动
 也是 `take me higher` 变调版，若是童年中和我一样追过迪迦的同学应该会对这首 `BGM` 很熟悉, 这次有幸再次听到曲子，心血来潮就想把它分享出来，纪念一下。(●'◡'●)
    
 
-<embed src="//music.163.com/style/swf/widget.swf?sid=4968365&type=2&auto=1&width=320&height=66" width="340" height="86"  allowNetworking="all"></embed>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=4968365&auto=1&height=66"></iframe>
 
 从初中开始，和几个小伙伴一起（包括弟弟）每次都是在早上守着电视机，等着迪迦，互相串门，开心的追着光的巨人。看到最后一集迪迦的时候，我们都以为奥特曼没希望了吧，当变成石像沉入海底的那一刻，眼中泪水闪过，心中哭喊着：不要啊！
 
