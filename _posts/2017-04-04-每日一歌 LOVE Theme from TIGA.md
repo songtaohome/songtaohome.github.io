@@ -12,7 +12,7 @@ keywords: 迪迦,回忆,童年,感动
 
 从初中开始，和几个小伙伴一起（包括弟弟）每次都是在早上守着电视机，等着迪迦，互相串门，开心的追着光的巨人。看到最后一集迪迦的时候，我们都以为奥特曼没希望了吧，当变成石像沉入海底的那一刻，眼中泪水闪过，心中哭喊着：不要啊！
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=4968365&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=4968365&auto=1&height=66"></iframe>
 
 
 ![德班！德班！你不要死啊德班！德班…… ](http://onbsquc8n.bkt.clouddn.com/%E5%BE%B7%E7%8F%AD.jpg)
