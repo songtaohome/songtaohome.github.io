@@ -19,29 +19,30 @@ keywords: 迪迦,回忆,童年,感动
 
 ![德班！德班！你不要死啊德班！德班…… ](http://onbsquc8n.bkt.clouddn.com/%E5%BE%B7%E7%8F%AD.jpg)
 
-			"德班！德班！你不要死啊德班！德班…… "
+			德班！德班！你不要死啊德班！德班…… 
 
 ![](http://onbsquc8n.bkt.clouddn.com/tuomo2017.jpg)
 
-			"你是拓摩吗？拓摩！我知道是你！拓摩!" 
+			你是拓摩吗？拓摩！我知道是你！拓摩! 
                 
 ![](http://onbsquc8n.bkt.clouddn.com/%E4%B8%8B%E8%BD%BD201704.jpg)
 
-			"你不要走好吗"
+			你不要走好吗
                 
 
 ![西拉！！！！！](http://onbsquc8n.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170404190837.png)
 
-				"人一定要做点什么"
+			只要还活着，就一定要做点什么
 
 ![](http://onbsquc8n.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170404190553.png)
 
-			"那是以前的村子，那是曾是一条小溪，在那对岸是个瞭望台"
+			那是以前的村子，那是曾是一条小溪，在那对岸是个瞭望台
  
  ![](http://onbsquc8n.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170404190627.png)
  
- 			"以前的村子又回来了，以前的村子又回来了！"
-            
+ 			以前的村子又回来了，以前的村子又回来了！
+ 
+           
  迪迦中很多场景都十分的催人泪下，引发共鸣，尤其是bgm的配合非常完美。。。
  
  变得温暖，谁还叹人一生短暂！
