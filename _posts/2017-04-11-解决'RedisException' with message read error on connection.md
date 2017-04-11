@@ -1,12 +1,12 @@
----
-2	layout: post
-3	title: 解决'RedisException' with message 'read error on connection'
-4	categories: php
-5	description: 解决'RedisException' with message 'read error on connection'
-6	keywords: php, redis
-7	---
-8	
-9	# 环境
+ ---
+	layout: post
+ title: 解决'RedisException' with message 'read error on connection'
+	categories: php
+	description: 解决'RedisException' with message 'read error on connection'
+	keywords: php, redis
+	---
+	
+	# 环境
 centos 7
 
 php sockets
