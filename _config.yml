@@ -8,7 +8,7 @@ title: SongTao Blog
 subtitle: "The record bit by bit, are the mark of my growth"
 description: "松涛的个人博客"
 keywords: 闵松涛,松涛, SongTao, minsongtao,songtao, PHP, 技术博客, linux, 闵松涛的博客
-favicon: /songtao.ico
+favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
