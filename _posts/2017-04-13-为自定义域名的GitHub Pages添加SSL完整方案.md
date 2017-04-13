@@ -6,7 +6,7 @@ description: 为自定义域名的GitHub Pages添加SSL 完整方案, 一直想�
 keywords: https化, 网站建设, 为什么使用https, http和https的区别, 为自定义域名的GitHub Pages添加SSL 完整方案
 ---
 
-#http缺点
+# http缺点
 
 通信使用明文（未加密的报文），内容可能会被窃听：即使是加密处理的通信
 
@@ -28,7 +28,7 @@ keywords: https化, 网站建设, 为什么使用https, http和https的区别, �
 
 要使用HTTPS。
 
-#什么是https
+# 什么是https
 
 HTTP＋加密＋认证＋完整性保护＝HTTPS
 
@@ -40,7 +40,7 @@ https(http over ssl)是以安全为目标的http通道，说穿了就是http
 
 的真实性。https需要ssl证书部署到服务器端来实现。
 
-#既然https更安全，为什么现在只有少部分网站采取了https呢?
+# 既然https更安全，为什么现在只有少部分网站采取了https呢?
 
 一方面是我们的隐私保护意识还不强，比如上网搜索什么被别人获取并不认为
 
@@ -64,7 +64,7 @@ https普及率还比较低，仅在涉及到需要保护的账号密码和支付
 
 网安全形势来看，https全网化是必然。
 
-#为自定义域名的GitHub Pages添加SSL 完整方案
+# 为自定义域名的GitHub Pages添加SSL 完整方案
 
 效果图：
 
