@@ -68,7 +68,7 @@ https普及率还比较低，仅在涉及到需要保护的账号密码和支付
 
 效果图：
 
-![](http://onbsquc8n.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170413164058.bmp)
+![](/images/posts/20170413204051.png)
 
 收费的SSL服务总是比免费的更加周到，一般收费的SSL都会提供端到端的加
 
