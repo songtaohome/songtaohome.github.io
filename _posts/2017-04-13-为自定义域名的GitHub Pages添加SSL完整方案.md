@@ -70,7 +70,6 @@ https普及率还比较低，仅在涉及到需要保护的账号密码和支付
 
 ![](/images/posts/20170413204051.png)
 
-![](http://wx2.sinaimg.cn/mw690/b438bf3dly1fem7n9hmx3j21kw0w079l.jpg)
 
 收费的SSL服务总是比免费的更加周到，一般收费的SSL都会提供端到端的加
 
