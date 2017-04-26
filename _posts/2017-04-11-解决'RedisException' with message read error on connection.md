@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 解决'RedisException' with message 'read error on connection'
-categories: php
+categories: PHP
 description: 解决'RedisException' with message 'read error on connection'
 keywords: php, redis
 ---
