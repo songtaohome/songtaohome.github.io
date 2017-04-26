@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2017-04-26-使用workman来做http代理.md
+title: 使用workman来做http代理
 categories: Linux, PHP
 description: 使用workman来做http代理
 keywords: php,workman,代理,http,切换ip 
