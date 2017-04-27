@@ -38,7 +38,7 @@ WonderProxy: https://wonderproxy.com/docs/developers/guides/globalize-your-testi
 
 	`ip addr show eth0`
     
-![](https://tao007.oss-cn-shanghai.aliyuncs.com/%E5%9B%BE%E7%89%87/QQ%E6%88%AA%E5%9B%BE20170426145924.bmp)
+![](http://onbsquc8n.bkt.clouddn.com/05172846-06817d0a3a4e412f97fa0fdf08ca6808.jpg)
   
   也可以写一个脚本来循环绑定多个ip
 
@@ -123,13 +123,13 @@ $worker->onMessage = function($connection, $buffer)
 
 `curl http://v6.ipv6-test.com/api/myip.php`
 
-![](https://tao007.oss-cn-shanghai.aliyuncs.com/%E5%9B%BE%E7%89%87/meiyoudaili.bmp)
+![](http://onbsquc8n.bkt.clouddn.com/meiyoudaili.bmp)
 
 ## 开启代理之后:
 
 `curl http://v6.ipv6-test.com/api/myip.php --proxy localhost:8081`
 
-![](http://tao007.oss-cn-shanghai.aliyuncs.com/%E5%9B%BE%E7%89%87/%E5%BC%80%E5%90%AF%E4%BB%A3%E7%90%86.bmp)
+![](http://onbsquc8n.bkt.clouddn.com/%E5%BC%80%E5%90%AF%E4%BB%A3%E7%90%86.bmp)
 
 ## 总结 
 
