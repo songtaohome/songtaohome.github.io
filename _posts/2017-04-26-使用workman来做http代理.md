@@ -67,50 +67,49 @@ curl -Ss http://www.workerman.net/check.php | php
 # 代码
 
 ```php
-$worker->onMessage = function($connection, $buffer)
-{
+	$worker->onMessage = function($connection, $buffer)
+	{
 
-    // Parse http header.
-    list($method, $addr, $http_version) = explode(' ', $buffer);
-    $url_data = parse_url($addr);
-    $addr = !isset($url_data['port']) ? "{$url_data['host']}:80" : "{$url_data['host']}:{$url_data['port']}";
-
-
-    $data = switchIp();
-    //$data = array();
-    if(is_array($data) && !empty($data)){
-        $ip = $data['use_ip'];
-        $context = (array(
-            'socket' => array(
-                'bindto' => $ip,
-            ),
-        ));
-        // Async TCP connection.
+	    // Parse http header.
+	    list($method, $addr, $http_version) = explode(' ', $buffer);
+	    $url_data = parse_url($addr);
+	    $addr = !isset($url_data['port']) ? "{$url_data['host']}:80" : "{$url_data['host']}:{$url_data['port']}";
 
 
-        $remote_connection = new AsyncTcpConnection("tcp://$addr",$context);
-
-    }else{
-        $remote_connection = new AsyncTcpConnection("tcp://$addr");
-
-    }
-    // CONNECT.
-    if ($method !== 'CONNECT') {
-        $remote_connection->send($buffer);
-        // POST GET PUT DELETE etc.
-    } else {
-        $connection->send("HTTP/1.1 200 Connection Established\r\n\r\n");
-    }
-    // Pipe.
+	    $data = switchIp();
+	    //$data = array();
+	    if(is_array($data) && !empty($data)){
+		$ip = $data['use_ip'];
+		$context = (array(
+		    'socket' => array(
+			'bindto' => $ip,
+		    ),
+		));
+		// Async TCP connection.
 
 
-    $remote_connection ->pipe($connection);
-    $connection->pipe($remote_connection);
+		$remote_connection = new AsyncTcpConnection("tcp://$addr",$context);
 
-    $remote_connection->connect();
+	    }else{
+		$remote_connection = new AsyncTcpConnection("tcp://$addr");
 
-};
+	    }
+	    // CONNECT.
+	    if ($method !== 'CONNECT') {
+		$remote_connection->send($buffer);
+		// POST GET PUT DELETE etc.
+	    } else {
+		$connection->send("HTTP/1.1 200 Connection Established\r\n\r\n");
+	    }
+	    // Pipe.
 
+
+	    $remote_connection ->pipe($connection);
+	    $connection->pipe($remote_connection);
+
+	    $remote_connection->connect();
+
+	};
 ```
 **问题说明:** 使用redis 可能会遇到 `RedisException' with message 'read error on connection`
 
