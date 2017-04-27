@@ -117,7 +117,7 @@ keywords: PHP, socket的通信
 
 服务器端:
 
-```
+```php
 
 <?php
 //确保在连接客户端时不会超时
@@ -201,7 +201,7 @@ socket_close($sock);
 
 可以看到端口处于开启状态, 我们运行client 的程序即可以连接上
 
-```
+```php
 
 <?php
 error_reporting(E_ALL);
@@ -269,8 +269,7 @@ echo "关闭OK\n";
 
 ## 案例二：代码详解
 
-```
-
+```php
 // 设置一些基本的变量
 $host = "192.168.1.99";
 $port = 1234;
