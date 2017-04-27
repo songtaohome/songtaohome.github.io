@@ -38,7 +38,7 @@ WonderProxy: https://wonderproxy.com/docs/developers/guides/globalize-your-testi
 
 	`ip addr show eth0`
     
-![](http://onbsquc8n.bkt.clouddn.com/05172846-06817d0a3a4e412f97fa0fdf08ca6808.jpg)
+![](http://onbsquc8n.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170426145924.bmp)
   
   也可以写一个脚本来循环绑定多个ip
 
