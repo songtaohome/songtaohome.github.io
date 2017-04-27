@@ -66,8 +66,7 @@ curl -Ss http://www.workerman.net/check.php | php
 
 # 代码
 
-```
-
+```php
 $worker->onMessage = function($connection, $buffer)
 {
 
