@@ -115,7 +115,7 @@ $worker->onMessage = function($connection, $buffer)
 ```
 **问题说明:** 使用redis 可能会遇到 `RedisException' with message 'read error on connection`
 
-看我的这篇博客: https://www.minsongtao.com/2017/04/11/%E8%A7%A3%E5%86%B3'RedisException'-with-message-read-error-on-connection/
+看我的这篇博客: https://www.minsongtao.com/2017/04/11/%E8%A7%A3%E5%86%B3\'RedisException\'-with-message-read-error-on-connection/
 
 # 测试
 
