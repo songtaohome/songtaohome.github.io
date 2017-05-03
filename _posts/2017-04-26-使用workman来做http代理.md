@@ -44,7 +44,7 @@ WonderProxy: https://wonderproxy.com/docs/developers/guides/globalize-your-testi
 
 ## 删除绑定的ip 
   
-   `ip addr del 2607:5300:60:3720::64 dev eth0`
+   `ip addr del 2607:5300:60:3720::64/64 dev eth0`
   
   
 ## 下载workman 
