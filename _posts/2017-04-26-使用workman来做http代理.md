@@ -32,11 +32,11 @@ WonderProxy: https://wonderproxy.com/docs/developers/guides/globalize-your-testi
   
   换IP，就需要在网卡上绑定多个IP。
   
-  `ip addr add 2607:5300:60:3720::64 dev eth0`
+  `ip addr add 2607:5300:60:3720::64/64 dev eth0`
   
 ## 查看ip 绑定是否生效
 
-	`ip addr show eth0`
+ `ip addr show eth0`
     
 ![](http://onbsquc8n.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170426145924.bmp)
   
