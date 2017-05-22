@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 使用workman来做http代理
-categories: Linux, PHP
+categories: Linux  PHP
 description: 使用workman来做http代理
 keywords: php,workman,代理,http,切换ip 
 ---
