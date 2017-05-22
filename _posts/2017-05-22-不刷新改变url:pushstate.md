@@ -49,7 +49,7 @@ window.history.pushState(state, ~title, ~href);
 
 # demo演示
 
-<button class="rdbtn" background-color:"red" style="width: 100px;" onclick="history.pushState( null, null, '/test-string');alert('看看地址栏是不是改变了URL')">点我试试</button>
+<button class="rdbtn"  style="width: 100px;" onclick="history.pushState( null, null, '/test-string');alert('看看地址栏是不是改变了URL')">点我试试</button>
 
 ## replaceState 同理
 
