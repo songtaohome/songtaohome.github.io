@@ -32,19 +32,18 @@ WonderProxy: https://wonderproxy.com/docs/developers/guides/globalize-your-testi
   
   换IP，就需要在网卡上绑定多个IP。
   
-  `ip addr add 2607:5300:60:3720::64/64 dev eth0`
+  `ip addr add 2604:5300:60:3320::63/64 dev eth0`
   
 ## 查看ip 绑定是否生效
 
  `ip addr show eth0`
     
-![](http://onbsquc8n.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170426145924.bmp)
   
   也可以写一个脚本来循环绑定多个ip
 
 ## 删除绑定的ip 
   
-   `ip addr del 2607:5300:60:3720::64/64 dev eth0`
+   `ip addr del 2604:5300:60:3320::63/64 dev eth0`
   
   
 ## 下载workman 
@@ -121,13 +120,11 @@ curl -Ss http://www.workerman.net/check.php | php
 
 `curl http://v6.ipv6-test.com/api/myip.php`
 
-![](http://onbsquc8n.bkt.clouddn.com/meiyoudaili.bmp)
 
 ## 开启代理之后:
 
 `curl http://v6.ipv6-test.com/api/myip.php --proxy localhost:8081`
 
-![](http://onbsquc8n.bkt.clouddn.com/%E5%BC%80%E5%90%AF%E4%BB%A3%E7%90%86.bmp)
 
 ## 总结 
 
