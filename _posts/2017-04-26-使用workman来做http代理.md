@@ -120,11 +120,20 @@ curl -Ss http://www.workerman.net/check.php | php
 
 `curl http://v6.ipv6-test.com/api/myip.php`
 
+```bash
+[minsongtao@ns523827]~% curl http://v6.ipv6-test.com/api/myip.php
+2307:5305:60:3720::64
+```
+
 
 ## 开启代理之后:
 
 `curl http://v6.ipv6-test.com/api/myip.php --proxy localhost:8081`
 
+```bash
+[minsongtao@ns523827]~% curl http://v6.ipv6-test.com/api/myip.php
+2307:5305:60:3720::52
+```
 
 ## 总结 
 
