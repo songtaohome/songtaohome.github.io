@@ -69,11 +69,7 @@ Fork 本项目之后，还需要做一些事情才能让你的页面「正确」
 
 * 可以学习一下那些高质量的博主，他们的行文，内容组织方式，有什么值得借鉴的地方。
 
-## 致谢
 
-本博客外观基于 [码志](http://http://mazhuang.org) 修改，感谢！
-http://mazhuang.org/
-感谢码志的无私奉献. 他弄的模板非常漂亮, 我一眼就喜欢上了. 基本没弄什么改变, 拿来就直接用了. 
 
 [1]: https://github.com/mzlogin/chinese-copywriting-guidelines
 [2]: https://help.github.com/articles/setting-up-your-pages-site-locally-with-jekyll/
