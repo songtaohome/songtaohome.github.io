@@ -22,7 +22,6 @@ keywords: 音乐, 激战, Sound Of Silence
             
 <embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=12660983&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash">
 
-</embed>
 
 大家喜欢的话可以找电影原声的版本--  Sound Of Silence - Ania
 
