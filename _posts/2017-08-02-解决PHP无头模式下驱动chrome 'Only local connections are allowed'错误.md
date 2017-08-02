@@ -43,6 +43,8 @@ yum install -y libXfont
 
 yum install xorg-x11-fonts*
 
+刚开始，说实话，会发生什么，我不知道，但幸运的是，这次上帝站在我这边。
+
 这块安装在bash下没有问题，在zsh 下会报`zsh: no matches found:`错.
 
 可以看下这篇文章:https://tonydeng.github.io/2014/12/09/zsh-scp-wildcard/
