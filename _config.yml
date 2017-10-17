@@ -105,7 +105,7 @@ gitalk:
     clientID: 10b7e5239da3afac37ad
     clientSecret: f8f6de1f0f14b90d4f06e93b843607cdce7bc877
 # 在使用其它评论组件时可点击显示 Disqus
-lazy_load_disqus : true
+lazy_load_disqus : false
 
 # ---------------- #
 #    Analytics     #
