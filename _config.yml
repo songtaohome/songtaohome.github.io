@@ -28,23 +28,23 @@ email: 936908163@qq.com
 navs:
   -
     href: /
-    label: Home
+    label: 首页
 
   -
     href: /categories/
-    label: categories
+    label: 分类
 
   -
     href: /wiki/
-    label: wiki
+    label: 维基
 
   -
     href: /links/
-    label: links
+    label: 链接
 
   -
     href: /about/
-    label: about
+    label: 关于
 
 # ---------------- #
 #       RSS        #

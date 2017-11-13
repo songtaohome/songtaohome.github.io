@@ -1,47 +1,88 @@
-<footer class="container">
+    <footer class="container">
+        <div class="site-footer" role="contentinfo">
+            <div class="copyright left mobile-block">
+                    © 2015
+                    <span title="{{ site.author}}">{{ site.author }}</span>
+                    <a href="javascript:window.scrollTo(0,0)" class="right mobile-visible">TOP</a>
+            </div>
 
-    <div class="site-footer">
+            <ul class="site-footer-links right mobile-hidden">
+                <li>
+                    <a href="javascript:window.scrollTo(0,0)" >TOP</a>
+                </li>
+            </ul>
+            <a href="{{ site.github.repository_url }}" target="_blank" aria-label="view source code">
+                <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+            </a>
+            <ul class="site-footer-links mobile-hidden">
+                {% for nav in site.navs %}
+                <li>
+                    <a href="{{ nav.href }}" title="{{ nav.label }}" target="{{ nav.target | default: _self }}">{{ nav.label }}</a>
+                </li>
+                {% endfor %}
+                <li><a href="{{ site.subscribe_rss }}"><span class="octicon octicon-rss" style="color:orange;"></span></a></li>
+            </ul>
 
-        <div class="copyright pull-left">
-            <!-- 请不要更改这一行 方便其他人知道模板的来源 谢谢 -->
-            <!-- Please keep this line to let others know where this theme comes from. Thank you :D -->
-            Power by <a href="https://github.com/DONGChuan/Yummy-Jekyll">Yummy Jekyll</a>
         </div>
+    </footer>
+    <!-- / footer -->
+    <script src="/assets/vendor/share.js/dist/js/share.min.js"></script>
+    <script src="/assets/js/geopattern.js"></script>
+    <script src="/assets/js/prism.js"></script>
+    <link rel="stylesheet" href="/assets/css/globals/prism.css">
+    <script>
+      jQuery(document).ready(function($) {
+        // geopattern
+        $('.geopattern').each(function(){
+          $(this).geopattern($(this).data('pattern-id'));
+        });
+       // hljs.initHighlightingOnLoad();
+      });
+    </script>
 
-        <a href="https://github.com/DONGChuan" target="_blank" aria-label="view source code">
-            <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
-        </a>
+	<!--google PV -->
+	<script>
+  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-        <div class="pull-right">
-            <a href="javascript:window.scrollTo(0,0)" >TOP</a>
-        </div>
+  	ga('create', 'UA-96552910-1', 'auto');
+  	ga('send', 'pageview');
 
-    </div>
-
-    <!-- Third-Party JS -->
-    <script type="text/javascript" src="/bower_components/geopattern/js/geopattern.min.js"></script>
-
-    <!-- My JS -->
-    <script type="text/javascript" src="/assets/js/script.js"></script>
-
-    {% for javascript in page.javascript %}
-    <script src="/assets/js/{{javascript}}"></script>
-    {% endfor %}
-
-    {% if site.analytics.google.tracking_id %}
-    <!-- Google Analytics -->
+	</script>
+    {% if site.google.analytics_id %}
     <div style="display:none">
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-            ga('create', '{{ site.analytics.google.tracking_id }}', 'auto');
-            ga('send', 'pageview');
+        ga('create', '{{ site.google.analytics_id }}', 'auto');
+        ga('send', 'pageview');
 
-        </script>
+      </script>
     </div>
     {% endif %}
 
-</footer>
+<!--百度推送js-->
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+<script id="dsq-count-scr" src="//www-minsongtao-com.disqus.com/count.js" async></script>
+</body>
+</html>
