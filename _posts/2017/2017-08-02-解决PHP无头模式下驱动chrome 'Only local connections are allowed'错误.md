@@ -26,6 +26,7 @@ Only local connections are allowed
 也想不起来具体需要哪一个组件。大家可以看下这篇博客具体讲了centos 下
 
 搭建php-selenium + php-phantomjs + phantomjs +phpspider。
+<https://minsongtao.com/2017/03/23/%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%8B%E6%90%AD%E5%BB%BACentOS,php-selenium,phantomjs/>
 
 由于phantomjs 已经不维护了，还是把phantomjs 升级成chrome吧!
 
