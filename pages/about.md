@@ -23,6 +23,7 @@ permalink: /about/
 * GitHub：[@songtaohome](https://github.com/songtaohome)
 * email：936908163@qq.com
 * 博客：[{{ site.title }}]({{ site.url }})
+* 微信：![](http://ww1.sinaimg.cn/large/b438bf3dly1fvg5svv6fdj20by0bygme.jpg)
 
 ## Skill Keywords
 
