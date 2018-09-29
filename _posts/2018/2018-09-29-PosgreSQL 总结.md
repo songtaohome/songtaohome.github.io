@@ -129,7 +129,8 @@ PostgreSQL只支持堆表,不支持索引组织表, Innodb只支持索引组织�
 一个单独的排序步骤。由于这个原因以及每一个附加的索引都需要额外的时间，即使有额外的索引可用，规划器有时也会
 选择使用单一索引扫描。
   ```
-  ## PosgreSQL 缺点
+  
+ ## PosgreSQL 缺点
   
 *  由于索引中完全没有版本信息,不能实现Coverage index scan,即查询只扫描索引,直接从索引中返回所需的属性,还需要访问表。对于类似select count(*) from table的语句,PostgreSQL会比较慢。
 
